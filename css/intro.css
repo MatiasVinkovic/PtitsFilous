@@ -1,0 +1,62 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    background-color: #bcd7ff;
+}
+
+.main-div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+    background-color: #2876ee;
+    height: fit-content;
+    border-radius: 40px;
+    align-items: center;
+    animation: move-right 1.5s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-div h1{
+    color:yellow;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    animation: move-right 2s;
+    width: 100%;
+}
+
+.video-oblige{
+    width:100%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-oblige video{
+    width: 60%;
+    height: auto;
+    border: 11px solid black;
+    border-radius: 20px;
+}
+
+.video-oblige a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: 'Just Another Hand', cursive;
+    width: 200px;
+    text-align: center;
+}
